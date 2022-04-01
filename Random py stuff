@@ -25,4 +25,8 @@ str can be converted to int, float can be converted to int but a floating number
 integers and floating point numbers are equal but not strings
 >>> '99' == '99' >>> false
 >>> 99 == 099.00 >>> true
-
+While assigning boolean values to a variable, no need to use quotes like we use for a string. Directly assign True or False
+>>> spam = True
+>>> spam
+>>> True
+>>> spam = true //error
