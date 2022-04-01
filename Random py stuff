@@ -1,0 +1,28 @@
+Value operator value makes up an expression which evaluates to a single value. For eg. 10 + 0.0 >>> 10.0
+10, 0.0, 10.0 are values, + is an operator, 10 + 0.0 is an expression
+Addition operator can also work as string concatenation operator : 'Suyah' + 'Byte' >>> 'SuyahByte'; can be used on 2 strings
+Multiplication operator can also work as string replication operator : 'Suyah' * 2 >>> 'SuyahSuyah'; can be used only on a string and an integer combination else throws error
+Initialize a value to a variable ; Just call the variable name to get its value 
+>>> eggs = 2 //not just int, str can also be assigned
+>>> eggs 
+>>> 2
+str can be assigned to int without any type conversion
+>>> chicken = 2
+>>> chicken
+>>> 2
+>>> chicken = 'eggs mom'
+>>> chicken
+>>> 'eggs mom' //old value 2 is forgotten
+# is used for comments in python
+Using print() with nothing in between the parantheses will output a blank line on the screen
+print() function can print str or int values. 
+But print('Hi' + 9 + 'Bye') will throw an error as the expression Hi' + 9 + 'Bye' causes error here. Because in this case + is being used for concatenation and an integer can't be concatenated to a string.
+The input given by the user is always a str so convert it to int using int() before using it in any mathematical expressions.
+str can be converted to int, float can be converted to int but a floating number stored as a string cannot be converted to int
+>>> int('99') >>> 99
+>>> int(99.9) >>> 99
+>>> int('99.9') >>> error
+integers and floating point numbers are equal but not strings
+>>> '99' == '99' >>> false
+>>> 99 == 099.00 >>> true
+
