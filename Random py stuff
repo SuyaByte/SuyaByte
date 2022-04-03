@@ -30,3 +30,7 @@ While assigning boolean values to a variable, no need to use quotes like we use 
 >>> spam
 >>> True
 >>> spam = true //error
+== and != will work while comparing values of any datatype
+<, >, <=, >= will work only for integer and floating point numbers.
+Order of operations -> math operators > comparision operators > not operator > and operator > not operator
+break and continue statements can be used to manipulate while loops
