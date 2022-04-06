@@ -34,3 +34,9 @@ While assigning boolean values to a variable, no need to use quotes like we use 
 <, >, <=, >= will work only for integer and floating point numbers.
 Order of operations -> math operators > comparision operators > not operator > and operator > not operator
 break and continue statements can be used to manipulate while loops
+If you want to include both the variables used in the program and some normal statements in the print() function, convert the variables to str()
+random.randint(1,500)//prints random integers from 1 to 500
+if we use "from random import *" instead of "import random" no need to explicitly mention module name before calling the function. So just use randint(1,100) directly
+
+
+
