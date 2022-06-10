@@ -38,5 +38,11 @@ If you want to include both the variables used in the program and some normal st
 random.randint(1,500)//prints random integers from 1 to 500
 if we use "from random import *" instead of "import random" no need to explicitly mention module name before calling the function. So just use randint(1,100) directly
 print(r'\n')->prints \n instead of new line. This is used to print raw string.
+>>> x = 2
+>>> x + 6
+>>> 8
+if we want to use this output in next operation just use _
+>>> _ + 9
+>>> 17 (8+9)
 
 
