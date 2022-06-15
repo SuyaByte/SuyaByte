@@ -24,7 +24,7 @@ str can be converted to int, float can be converted to int but a floating number
 >>> int('99.9') >>> error
 integers and floating point numbers are equal but not strings
 >>> '99' == '99' >>> false
->>> 99 == 099.00 >>> true
+>>> 99 == 099.00 >>> true9
 While assigning boolean values to a variable, no need to use quotes like we use for a string. Directly assign True or False
 >>> spam = True
 >>> spam
@@ -54,4 +54,12 @@ Use id(variableName) to get its address.
 >>> num = 1+2j #j is imaginary number so on whole num becomes complex datatype
 >>> a = 1 >>> b = 2 >>> c = complex(a) >>> c >>> 1+0j #passing only one value to c while converting it to a complex number.
 >>> c = complex(a,b) >>> c >>> 1+2j #passing 2 values, we can also pass numbers directly.
-
+>>> r = range(1,10) #defining datatype range from 1 to 9, so 10 won't be included.
+>>> list(r) # to get the values in the range r
+>>> [1,2,3,4,5,6,7,8,9] #10 is not included
+Dictionary, key will have a value, keys are unique, values are not. So a set can be used to define it
+>>> s = {'a':'123','b':'124'} >>> s >>> {'a':'123','b':'124'}
+Let's say we use 'a', 'b' as a, b and we have already defined them earlier. Then we'll get the values of a, b instead of the letters.
+>>> a = 99 >>> b = 88 >>> s = {a:'321',b:'421'} >>> s >>> {99:'321',88:'421'}
+>>> s.keys() >>> dict_keys(['a','b']) in first example, >>> dict_keys([99, 88]) in second example
+>>> s.get('a') >>> '123' >>> s.get(a) >>> '321'
