@@ -44,5 +44,5 @@ print(r'\n')->prints \n instead of new line. This is used to print raw string.
 if we want to use this output in next operation just use _
 >>> _ + 9
 >>> 17 (8+9)
-
+[]->list, ()->tuple
 
