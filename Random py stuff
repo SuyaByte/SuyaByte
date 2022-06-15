@@ -45,4 +45,7 @@ if we want to use this output in next operation just use _
 >>> _ + 9
 >>> 17 (8+9)
 []->list, ()->tuple
+Use id(variableName) to get its address.
+>>> a = 10 >>> a >>> 10 >>> id(a) >>> 180560230 (some address) 
+>>> b = a >>> b >>> 10 >>> id(b) >>> 180560230 (same address as a). They both point to the same address which is having the value 10.
 
