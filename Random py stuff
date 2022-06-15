@@ -49,4 +49,9 @@ Use id(variableName) to get its address.
 >>> a = 10 >>> a >>> 10 >>> id(a) >>> 180560230 (some address) 
 >>> b = a >>> b >>> 10 >>> id(b) >>> 180560230 (same address as a). They both point to the same address which is having the value 10.
 >>> PI = 3.14 #using capital letters to define a variable means indicating that it is a constant value.
+>>> type(PI) >>> <class 'float'> #to get the datatype
+>>> egg = None #defining egg as None datatype
+>>> num = 1+2j #j is imaginary number so on whole num becomes complex datatype
+>>> a = 1 >>> b = 2 >>> c = complex(a) >>> c >>> 1+0j #passing only one value to c while converting it to a complex number.
+>>> c = complex(a,b) >>> c >>> 1+2j #passing 2 values, we can also pass numbers directly.
 
