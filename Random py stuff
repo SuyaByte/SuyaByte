@@ -63,3 +63,7 @@ Let's say we use 'a', 'b' as a, b and we have already defined them earlier. Then
 >>> a = 99 >>> b = 88 >>> s = {a:'321',b:'421'} >>> s >>> {99:'321',88:'421'}
 >>> s.keys() >>> dict_keys(['a','b']) in first example, >>> dict_keys([99, 88]) in second example
 >>> s.get('a') >>> '123' >>> s.get(a) >>> '321'
+>>> x = 2 >>> x+=2 >>> x >>> 4 #inrementing x by 2
+>>> a,b = 5,6 >>> a >>> 5 >>> b >>>6 #we can assign multiple variables at once
+n=-n will assign a negative value to n. this is the unary operator -
+
