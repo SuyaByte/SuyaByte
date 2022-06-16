@@ -76,7 +76,12 @@ swapping 2 numbers without using a temp
 >>> a = a+b (7)
 >>> b = a-b (7-4=3)
 >>> a = a-b (7-3=4 now a is 4 b is 3 values are swapped)
-
+or we can use xor
+>>> a = a^b
+>>> b = a^b
+>>> a = a^b
+xor is useful instead of above methos as it uses constant bits. In addition above, large values will need more bits -> memory wastage
+a,b=b,a
 
 
 
