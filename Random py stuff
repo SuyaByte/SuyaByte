@@ -87,6 +87,7 @@ import math
 >>> y = math.ceil(3.1) >>> y >>> 4
 >>> math.pi >>> 3.141592653589793
 >>> math.e >>> 2.718281828459045
+>>> import math as m #now you can just use m.funstionName instead of math.functionName
 
 
 
