@@ -88,6 +88,21 @@ import math
 >>> math.pi >>> 3.141592653589793
 >>> math.e >>> 2.718281828459045
 >>> import math as m #now you can just use m.funstionName instead of math.functionName
-
-
+from math import sqrt, pow #to import only these functions, just use functions directly in this case
+just click on the line number in pycharm to get break point
+after selecting break point go to run and click on debug, it starts execution
+press F8 to get the error
+input("Matter") is used to get the input value, but input() gives a string so we need to convert it to integers in case of numbers.
+>>> ch = input("enter a character")[0] #this will print only 1 character from the input string
+>>> print(ch) >>> absggfhgf >>> a
+>>> ch = eval(input("enter a character:")) #we can enter a mathematical expr as iput which will be evaluated
+>>> print(ch) >>> Enter a character:2+6+3 >>> 11
+import sys
+>>> a = int(sys.argv[1])
+>>> b = int(sys.argv[2])
+>>> c = a + b >>> print(c) 
+Using above we can directly pass values to command prompt while running the file in it.
+"Syntax in cmd-> Python Filename 28 87" #here argv[0] is for filename, argv[1] will fetch 28, argv[2] fetches 84 and gives output as 112
+>>> print("hello,end="") #this will not create new line for next print statement but concatenate it.
+>>> print() #for new line
 
